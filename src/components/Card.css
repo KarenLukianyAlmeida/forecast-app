@@ -1,0 +1,29 @@
+.card_container {
+  background-color: #1d2837;
+  color: rgba(255, 255, 255, 0.88);
+  padding: 16px 20px 20px 20px;
+  border-radius: 16px;
+  margin: 1rem;
+  position: relative;
+  width: 400px;
+
+}
+
+.card_container .wheather_container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+
+.card_container button {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  right: .5rem;
+  top: 63%;
+  transition: filter 0.8s;
+}
+
+.card_container button:hover {
+  filter: brightness(0.7);
+}

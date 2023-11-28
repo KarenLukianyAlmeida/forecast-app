@@ -21,12 +21,6 @@ export const icons = {
 
 export const forecasts: DayWeatherProps[] = [
   {
-    date: '2023-11-22T16:21:11',
-    view: 'sunCloudy',
-    maxTemp: 25,
-    minTemp: 22,
-  },
-  {
     date: '2023-11-23T16:22:11',
     view: 'sunny',
     maxTemp: 20,
@@ -34,7 +28,7 @@ export const forecasts: DayWeatherProps[] = [
   },
   {
     date: '2023-11-24T16:22:11',
-    view: 'storm',
+    view: 'rainbow',
     maxTemp: 20,
     minTemp: 15,
   },

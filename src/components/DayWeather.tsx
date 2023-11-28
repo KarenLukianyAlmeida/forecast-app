@@ -1,5 +1,6 @@
 import { icons } from '../data/forecast';
 import { DayWeatherProps } from '../types/weather';
+import './DayWeather.css';
 
 const formatDate = (date:string) => {
   const newDate = new Date(date);
@@ -18,7 +19,7 @@ const formatDate = (date:string) => {
 
 function DayWeather({ date, view, maxTemp, minTemp }: DayWeatherProps) {
   return (
-    <div style={ { padding: '1rem' } }>
+    <div className="column">
       <p>{formatDate(date)}</p>
       <img src={ icons[view] } alt={ view } />
       <p>{view}</p>

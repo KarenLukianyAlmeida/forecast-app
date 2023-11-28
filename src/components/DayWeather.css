@@ -1,0 +1,13 @@
+.wheather_container .column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.wheather_container .column img {
+  width: 4rem;
+}
+
+.wheather_container .column * {
+  text-align: center;
+}
